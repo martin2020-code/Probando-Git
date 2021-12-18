@@ -1,4 +1,4 @@
-﻿using System;
+﻿using static System.Console;
 
 namespace Probando_Git
 {
@@ -6,7 +6,8 @@ namespace Probando_Git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
+            WriteLine("Este cambio adelanta main por un commit");
         }
     }
 }
